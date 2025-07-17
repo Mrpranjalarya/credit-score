@@ -43,5 +43,4 @@ Each wallet is summarized with the following features:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/defi-credit-scoring.git
-cd defi-credit-scoring
+git clone https://github.com/Mrpranjalarya/credit-score.git
