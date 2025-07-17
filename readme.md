@@ -13,6 +13,7 @@ The pipeline:
 
 ---
 ## 📁 Project Structure
+```bash
  credit-scoring-ml/
 │
 ├── data/
@@ -35,7 +36,6 @@ The pipeline:
 ├── analysis.md                            # Analysis of scoring results
 ├── readme.md                              # Project overview and guide
 ├── requirements.txt                       # Python dependencies
-
 
 
 
