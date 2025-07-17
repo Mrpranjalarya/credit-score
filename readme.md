@@ -1,4 +1,4 @@
-# DeFi Wallet Credit Scoring System (Aave V2)
+# Credit Scoring System (Aave V2)
 
 ## 📌 Overview
 
