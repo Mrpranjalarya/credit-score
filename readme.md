@@ -37,8 +37,7 @@ The pipeline:
 ├── readme.md                              # Project overview and guide
 ├── requirements.txt                       # Python dependencies
 
-
-```md
+```
 
 
 ---
