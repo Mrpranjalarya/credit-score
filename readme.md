@@ -16,25 +16,26 @@ The pipeline:
  credit-scoring-ml/
 │
 ├── data/
-│ └── user_transactions.json # Raw transaction data
+│   └── user_transactions.json             # Raw transaction data
 │
 ├── output/
-│ ├── wallet_features.csv # Extracted wallet-level features
-│ ├── wallet_features_labeled.csv # Features with rule-based labels
-│ ├── wallet_predicted_scores.csv # Final output scores
-│ └── score_distribution.png # Distribution plot of scores
+│   ├── wallet_features.csv                # Extracted wallet-level features
+│   ├── wallet_features_labeled.csv        # Features with rule-based labels
+│   ├── wallet_predicted_scores.csv        # Final output scores
+│   └── score_distribution.png             # Score distribution plot
 │
 ├── models/
-│ └── credit_score_model.pkl # Trained ML model
+│   └── credit_score_model.pkl             # Trained RandomForestRegressor model
 │
-├── extract_features.py # Script to extract features
-├── generate_labels.py # Script to generate rule-based labels
-├── train_model.py # Train and save RandomForestRegressor model
-├── predict_scores.py # Predict scores using the trained model
+├── extract_features.py                    # Feature extraction logic
+├── generate_labels.py                     # Heuristic rule-based label generator
+├── train_model.py                         # Training and saving the model
+├── predict_scores.py                      # Scoring new wallet data
 │
-├── analysis.md # Score range analysis with observations
-├── readme.md # This file
-├── requirements.txt # Python dependencies
+├── analysis.md                            # Analysis of scoring results
+├── readme.md                              # Project overview and guide
+├── requirements.txt                       # Python dependencies
+
 
 
 
