@@ -139,7 +139,7 @@ Each wallet is summarized with the following features:
 
 ---
 
-
+```text
 ## 🛠️ How to Run the Project
 
 # 1. Install dependencies
@@ -159,5 +159,3 @@ python predict_scores.py
 
 ```md
 ### 1. Clone the repository
-```bash
-git clone https://github.com/Mrpranjalarya/credit-score.git
