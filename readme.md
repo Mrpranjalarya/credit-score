@@ -157,7 +157,7 @@ python train_model.py
 # 5. Predict scores
 python predict_scores.py
 
-
+```md
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Mrpranjalarya/credit-score.git
